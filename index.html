@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apna Khana</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+  <link rel="shortcut icon" href="images/logo1.png" type="image/fav-icon">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="logoimg">Apna Khana
+    </a>
+    
+    <input type="checkbox" id="check">
+
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="aboutus.html">About</a>
+      <a href="#">Gallery</a>
+      <a href="menu.html">Menu</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- background images -->
+   <section class="backdrop">
+    <div class="background">
+      <img src="images/leafdesign.png" alt="">
+    </div>
+    <div class="background1">
+      <img src="images/Ashoka-Chakra.png" alt="">
+    </div>
+   </section>
+
+
+  <!-- Main Landing page -->
+   <section id="main" class="main">
+    <img src="images/thali.png" alt="welcome">
+    <div class="content">
+      <h2>Welcome To <span>Apna Khana</span></h2>
+      <p>Pure fresh Indian vegetarian food.</p>
+    </div>
+   </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <h3>Regular Menu</h3>
+    <div class="menu-category">
+      <div class="menu-item">
+          <img src="images/dahipuri.jpg" alt="Regular 1">
+          <h4>Aloo Paratha</h4>
+          <p>Stuffed with spiced potatoes. <br> Price: £3.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/samosa.jpg" alt="Regular 2">
+          <h4>Chicken Tikka</h4>
+          <p>Grilled chicken marinated in spices. <br>Price: £6.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/gulabjamun.jpg" alt="Regular 3">
+          <h4>Butter Naan</h4>
+          <p>Soft naan with butter. <br>Price: £1.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/dahipuri.jpg" alt="Regular 1">
+        <h4>Aloo Paratha</h4>
+        <p>Stuffed with spiced potatoes. <br> Price: £3.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/samosa.jpg" alt="Regular 2">
+          <h4>Chicken Tikka</h4>
+          <p>Grilled chicken marinated in spices. <br>Price: £6.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/gulabjamun.jpg" alt="Regular 3">
+          <h4>Butter Naan</h4>
+          <p>Soft naan with butter. <br>Price: £1.99</p>
+      </div>
+    </div>
+
+    <!-- Weekend Special, Drinks, Desserts as similar format -->
+    <h3>Regular Menu</h3>
+    <div class="menu-category">
+      <div class="menu-item">
+          <img src="images/dahipuri.jpg" alt="Regular 1">
+          <h4>Aloo Paratha</h4>
+          <p>Stuffed with spiced potatoes. <br> Price: £3.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/samosa.jpg" alt="Regular 2">
+          <h4>Chicken Tikka</h4>
+          <p>Grilled chicken marinated in spices. <br>Price: £6.99</p>
+      </div>
+      <div class="menu-item">
+          <img src="images/gulabjamun.jpg" alt="Regular 3">
+          <h4>Butter Naan</h4>
+          <p>Soft naan with butter. <br>Price: £1.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-container">
+        <button id="previous-review"><</button>
+        <div class="review-slide" id="review-slide">
+            <div class="review">
+                <h4>Ravi Kumar</h4>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Authentic taste and great quality!"</p>
+            </div>
+            <div class="review">
+                <h4>Anita Shah</h4>
+                <p>⭐⭐⭐⭐</p>
+                <p>"Feels like home, loved the parathas!"</p>
+            </div>
+            <div class="review">
+                <h4>Rajesh Patel</h4>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Excellent service and delicious food!"</p>
+            </div>
+        </div>
+        <button id="next-review">></button>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="tel" placeholder="Phone Number" required>
+          <input type="email" placeholder="Email" required>
+          <button type="submit">Submit</button>
+      </form>
+      <div class="map">
+          <p>We are located in Oxford.</p>
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79041.45211602442!2d-1.3299885672593366!3d51.75049376982424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48713380adc41faf%3A0xc820dba8cb547402!2sOxford%2C%20UK!5e0!3m2!1sen!2sus!4v1731285327716!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+      <p>Contact us: apnakhanaoxford@gmail.com | +44 8654485534</p>
+      <p>&copy; 2023 Apna Khana. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
